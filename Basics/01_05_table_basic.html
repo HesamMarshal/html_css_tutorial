@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            border-collapse: separate;
+        }
+
+        th {
+            border: 1px solid black;
+        }
+
+        .address {
+            width: 100px;
+        }
+
+        .rank {
+            text-align: center;
+        }
+    </style>
+    <title>Tables</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">My Students</th>
+            </tr>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th class="address">Tel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="rank">1</td>
+                <td>Sina</td>
+                <td class="address">0917 012 3456</td>
+
+            </tr>
+            <tr>
+                <td class="rank">2</td>
+                <td>Taraneh</td>
+                <td class="address">0936 012 3456</td>
+            </tr>
+            <tr>
+                <td class="rank">3</td>
+                <td>Saeed</td>
+                <td class="address">0912 987 6543 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>3 </td>
+                <td class="address">Account</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
