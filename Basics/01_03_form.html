@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        form {
+            border: 1px solid blue;
+        }
+
+        input {
+            background-color: aquamarine;
+            border-radius: 5px;
+            height: 1.2rem;
+        }
+
+
+        input[type="password"] {
+            background-color: gold;
+        }
+
+        input[type="email"] {
+            background-color: red;
+        }
+
+        input:hover {
+            cursor: pointer;
+        }
+
+        input[type="password"]:focus {
+            background-color: blueviolet;
+            height: 2rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fill the Form</h1>
+
+
+    <form action="#">
+        First Name: <input type="text" name="first_name" placeholder="Enter your First name" required><br>
+        Last Name: <input type="text" name="last_name" placeholder="Enter your Last Name" required><br>
+        Password: <input type="password" name="password" placeholder="enter pass"><br>
+        email: <input type="email" name="email" placeholder="enter your email"><br>
+        Birth date: <input type="date" name="Bdate"><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">female <br>
+        <input type="radio" name="gender" value="x">x-gender <br>
+        <br>
+        skill:<br>
+        <input type="radio" name="skills" value="1">beginner<br>
+        <input type="radio" name="skills" value="2">inter<br>
+        <input type="radio" name="skills" value="3">pro<br>
+
+        Movies you have seen: <br>
+        <input type="checkbox" name="Movies" value="batman">Batman<br>
+        <input type="checkbox" name="Movies" value="ironman">Iron Man<br>
+        <input type="checkbox" name="Movies" value="123654">Stalker <br>
+        <input type="checkbox" name="Movies" value="fist_of">fist <br>
+
+        <!-- TODO: ADD option drop down list -->
+        <br>
+        <input type="submit" value="Click Me!"> <input type="reset" value="Clean Form!">
+    </form>
+</body>
+
+</html>
