@@ -1,0 +1,139 @@
+/* Selector {
+
+    property: value;
+    property: value;
+
+} */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-family: Blanco, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: clamp(12px, .8rem + .25vw, 20px);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+body {
+    background-color: #262626;
+    background-position: top 58px center;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img);
+}
+
+a {
+    font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff7a18;
+    font-size: 1rem;
+    -webkit-margin-end: 0.66rem;
+    margin-inline-end: 0.66rem;
+}
+
+.header {
+    /* background-color: goldenrod; */
+
+}
+
+.header nav li {
+    /* list-style: none; */
+    display: inline;
+}
+
+.nav {
+    /* background-color: gold; */
+
+}
+
+main {
+    /* background-color: orange; */
+    /* display: flex; */
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.footer {
+    /* background-color: orangered; */
+    /* grid-area: footer; */
+
+}
+
+/* body {
+    background-color: gray;
+    color: #219EBC;
+} */
+
+h1 {
+    color: #286870;
+    font-family: Impact;
+}
+
+p {
+    font-family: Arial;
+    color: aliceblue;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid blue;
+    object-fit: cover;
+    object-position: top left;
+}
+
+
+.mini-card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 0 0 1.5rem;
+    position: relative;
+}
+
+/* .card {
+    width: 200px;
+    height: auto;
+    background-color: #219EBC;
+    margin: 5px 0px 0 -25px;
+
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .3);
+
+} */
+
+.mini-card {
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: linear-gradient(85deg, #434343, #262626);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: 0;
+}
+
+main .mini-card {
+    min-width: 300px;
+    min-height: 350px;
+    box-shadow: -2rem 0 3rem -2rem #000;
+}
+
+.mini-card:hover {
+    transform: translateY(-1rem) rotate(3deg);
+}
+
+
+.module {
+    clear: both;
+    margin: 0 0 1rem;
+    position: relative;
+}
