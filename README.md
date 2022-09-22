@@ -60,7 +60,8 @@ git clone https://github.com/HesamMarshal/html_css_tutorial.git
 git pull
 ```
 
-
+### License
+This project is licensed under [MIT LICENSE](LICENSE).
 
 
 
