@@ -1,0 +1,28 @@
+body {
+
+    background: url(../images/pexels-jaime-reimer-small.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: aqua;
+    margin: 0px;
+    padding: 1px;
+}
+
+.second {
+    /* background-color: #fff; */
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+}
+
+.third {
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 1px;
+}
