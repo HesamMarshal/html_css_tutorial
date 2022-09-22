@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #b5a4e4;
+    /* background: linear-gradient(red, purple, black); */
+    /* background: linear-gradient(90deg, white, blue, green, magenta); */
+
+
+    /* background: linear-gradient(45deg, red, purple, black); */
+    /* background: radial-gradient(circle, black, white); */
+    /* background: radial-gradient(circle, blue, red); */
+    /* TODO: Add conical gradient */
+
+    /* background-image: url(../images/keila-hotzel.jpg); */
+
+    /* opacity: 0.5; */
+    /* background-size: 1080px; */
+
+    /* background-size: 300px; */
+    /* background-size: 100%; */
+
+    /* background-repeat: repeat-y; */
+
+    /* background-size: 300px 300px; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 100%; */
+
+    /* background-image: url(../images/benz-300-sl.jpg); */
+    /* background-image: url(../images/profilePicture.png); */
+
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+
+    /* background-repeat: no-repeat; */
+    /* background-position: left bottom; */
+    /* background-position: right top; */
+
+
+
+
+    /* background-image: url(../images/bg_01.jpg); */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+
+    /* background-image: url(../images/keila-hotzel.jpg), url(../images/bg_01.jpg); */
+    /* background-size: 300px 100px, cover; */
+
+
+    /* background-image: url(../images/moroccan-flower.png); */
+    /* background-image: url(../images/morocco.png); */
+
+    /* background-image: url(../images/pink-flowers.png); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    /* background-image: url(../images/car.svg); */
+    /* background-repeat: round; */
+
+
+    /* color: #550000; */
+    /* background-image: url(../images/keila-hotzel.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* TODO: add short form for background*/
+    /* background: url(../images/keila-hotzel.jpg); */
+}
+
+#block {
+    /* background-color: #fff; */
+    margin: 0;
+    padding: 10px;
+}
