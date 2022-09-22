@@ -14,6 +14,7 @@
     list-style: none;
 }
 
+
 html {
     font-family: Blanco, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: clamp(12px, .8rem + .25vw, 20px);
@@ -23,9 +24,10 @@ html {
 
 body {
     background-color: #262626;
-    background-position: top 58px center;
+    /* background-position: top 58px center; */
     background-repeat: no-repeat;
     background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img);
+    background-image: url(../images/seyi-ariyo-g42A22TR8k8-unsplash.jpg);
 }
 
 a {
@@ -37,6 +39,7 @@ a {
     font-size: 1rem;
     -webkit-margin-end: 0.66rem;
     margin-inline-end: 0.66rem;
+    text-decoration: none;
 }
 
 .header {
@@ -81,13 +84,13 @@ p {
     color: aliceblue;
 }
 
-img {
+/* img {
     width: 400px;
     height: 200px;
     border: 1px solid blue;
     object-fit: cover;
     object-position: top left;
-}
+} */
 
 
 .mini-card-grid {
