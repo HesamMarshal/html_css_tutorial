@@ -1,10 +1,3 @@
-/* Selector {
-
-    property: value;
-    property: value;
-
-} */
-
 *,
 *::before,
 *::after {
@@ -14,6 +7,12 @@
     list-style: none;
 }
 
+:root {
+    --color-primary: #286870;
+    --color-secondary: #286870;
+    --color-background: #262626;
+    --color-links: #ff7a18;
+}
 
 html {
     font-family: Blanco, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -23,11 +22,24 @@ html {
 }
 
 body {
-    background-color: #262626;
+    background-color: var(--color-background);
     /* background-position: top 58px center; */
     background-repeat: no-repeat;
     background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img);
     background-image: url(../images/seyi-ariyo-g42A22TR8k8-unsplash.jpg);
+}
+
+
+
+
+h1 {
+    color: var(--color-primary);
+    font-family: Impact;
+}
+
+p {
+    font-family: Arial;
+    color: aliceblue;
 }
 
 a {
@@ -35,11 +47,15 @@ a {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ff7a18;
+    color: var(--color-links);
     font-size: 1rem;
     -webkit-margin-end: 0.66rem;
     margin-inline-end: 0.66rem;
     text-decoration: none;
+}
+
+main {
+    width: 90vw;
 }
 
 .header {
@@ -74,15 +90,7 @@ main {
     color: #219EBC;
 } */
 
-h1 {
-    color: #286870;
-    font-family: Impact;
-}
 
-p {
-    font-family: Arial;
-    color: aliceblue;
-}
 
 /* img {
     width: 400px;
@@ -92,13 +100,18 @@ p {
     object-position: top left;
 } */
 
+.boundaries {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .mini-card-grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     margin: 0 0 1.5rem;
     position: relative;
+
 }
 
 /* .card {
