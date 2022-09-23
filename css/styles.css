@@ -9,7 +9,7 @@
 
 :root {
     --color-primary: #286870;
-    --color-secondary: #286870;
+    --color-secondary: aliceblue;
     --color-background: #262626;
     --color-links: #ff7a18;
 }
@@ -25,8 +25,10 @@ body {
     background-color: var(--color-background);
     /* background-position: top 58px center; */
     background-repeat: no-repeat;
-    background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img);
+    /* background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img); */
     background-image: url(../images/seyi-ariyo-g42A22TR8k8-unsplash.jpg);
+
+    color: var(--color-secondary);
 }
 
 
@@ -43,11 +45,11 @@ p {
 }
 
 a {
+    color: var(--color-links);
     font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--color-links);
     font-size: 1rem;
     -webkit-margin-end: 0.66rem;
     margin-inline-end: 0.66rem;
@@ -73,11 +75,7 @@ main {
 
 }
 
-main {
-    /* background-color: orange; */
-    /* display: flex; */
-    /* grid-template-columns: repeat(3, 1fr); */
-}
+
 
 .footer {
     /* background-color: orangered; */
