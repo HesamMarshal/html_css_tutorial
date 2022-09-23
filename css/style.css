@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+:root {
+    --color-primary: #001219;
+    --color-secondary: #005F73;
+    /* 0A9396 94D2BD E9D8A6 EE9B00 CA6702 BB3E03 AE2012 9B2226 */
+    --rich-black-fogra-29: #001219ff;
+    --blue-sapphire: #005f73ff;
+    --viridian-green: #0a9396ff;
+    --middle-blue-green: #94d2bdff;
+    --medium-champagne: #e9d8a6ff;
+    --gamboge: #ee9b00ff;
+    --alloy-orange: #ca6702ff;
+    --rust: #bb3e03ff;
+    --rufous: #ae2012ff;
+    --ruby-red: #9b2226ff;
+    /* --color-links: #ff7a18; */
+
+
+}
+
+body {
+    /* background-color: var(--medium-champagne); */
+
+    /* color: var(--middle-blue-green); */
+    background-image: url(../images/seyi-ariyo-g42A22TR8k8-unsplash.jpg);
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    /* color: var(--medium-champagne) */
+
+    color: var(--color-links);
+    text-decoration: none;
+}
+
+.container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+
+}
+
+.farsi {
+    direction: rtl;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--medium-champagne);
+    padding: 10px;
+}
+
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.container>:nth-child(6n+1) {
+    background: #56B870;
+    /* Old browsers */
+    background: linear-gradient(#56B870 0%, #a5c956 100%);
+    /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.container>:nth-child(6n+2) {
+    background: #C655BE;
+    /* Old browsers */
+
+    background: linear-gradient(#C655BE 0%, #cf0404 100%);
+    /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.container>:nth-child(6n+3) {
+    background: #F3AAAA;
+    /* Old browsers */
+
+    background: linear-gradient(#F3AAAA 0%, #febf04 100%);
+    /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.container>:nth-child(6n+4) {
+    background: #7abcff;
+    /* Old browsers */
+
+    background: linear-gradient(#7abcff 0%, #60abf8 44%, #4096ee 100%);
+    /* W3C */
+}
+
+/***********************************************************************
+ *  Purple Background
+ **********************************************************************/
+.container>:nth-child(6n+5) {
+    background: #A88BEB;
+    /* Old browsers */
+
+    background: linear-gradient(#A88BEB 0%, #F1A7F1 44%, #F8CEEC 100%);
+    /* W3C */
+}
+
+/***********************************************************************
+ *  Brown Background
+ **********************************************************************/
+.container>:nth-child(6n+6) {
+    background: #f6e6b4;
+    /* Old browsers */
+
+    background: linear-gradient(#f6e6b4 0%, #ed9017 100%);
+    /* W3C */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6e6b4', endColorstr='#ed9017', GradientType=0);
+    IE6-9 */
+}
