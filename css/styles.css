@@ -11,12 +11,13 @@
     --color-primary: #286870;
     --color-secondary: aliceblue;
     --color-background: #262626;
-    --color-links: #ff7a18;
+    /* --color-links: #ff7a18;  css-tricks*/
+    --color-links: #27AE60;
 
 
     /* --color-primary: #001219; */
     /* --color-secondary: #005F73; */
-    /* 0A9396 94D2BD E9D8A6 EE9B00 CA6702 BB3E03 AE2012 9B2226 */
+    /* 0A9396 94D2BD E9D8A6 EE9B00 CA6702 BB3E03 AE2012 9B2226  */
     --rich-black-fogra-29: #001219ff;
     --blue-sapphire: #005f73ff;
     --viridian-green: #0a9396ff;
