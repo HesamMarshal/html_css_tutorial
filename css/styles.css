@@ -70,7 +70,7 @@ a:active {
     font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
     font-style: normal;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 1rem;
     -webkit-margin-end: 0.66rem;
     margin-inline-end: 0.66rem;
