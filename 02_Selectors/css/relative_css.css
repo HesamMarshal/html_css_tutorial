@@ -1,0 +1,112 @@
+body {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p {
+    color: blue;
+}
+
+
+#products {
+    color: red;
+}
+
+#products,
+p {
+    /* color: green */
+}
+
+
+/* inner p  */
+#products p {
+    background-color: gold;
+    color: red;
+}
+
+
+/* Exact inner p -child */
+#products>p {
+    background-color: green;
+    color: purple;
+}
+
+/* Exact next p */
+#products+p {
+    color: green;
+}
+
+/* All p after */
+#products~p {
+    color: tomato;
+}
+
+/* .item {
+    color: orange;
+} */
+
+
+a {
+    /* color: red; */
+}
+
+a:visited {
+    /* color: brown; */
+}
+
+a:hover {
+    /* color: yellow; */
+}
+
+
+
+a:active {
+    /* color: green */
+}
+
+
+
+/* exact match  */
+/* a[href="http://chaptera.ir"] {
+    color: orange;
+} */
+
+/* li[class="test"] {
+    color: pink;
+} */
+
+/* .test {
+
+} */
+
+a[href="http://chaptera.ir"] {
+    color: orange;
+}
+
+a[href="https://chaptera.ir"] {
+    color: green;
+}
+
+/* contain  */
+a[href*="index"] {
+    color: greenyellow;
+}
+
+/* Starts with  */
+a[href^="http://"] {
+    color: red;
+}
+
+a[href^="https://"] {
+    color: green;
+}
+
+
+/* ends with  */
+a[href$=".com"] {
+    color: blueviolet;
+}
+
+a[href$=".ir"] {
+    color: turquoise;
+}
