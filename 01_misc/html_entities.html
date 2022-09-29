@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities</title>
+    <style>
+        .emoji {
+            font-size: 40px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            display: table;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+            text-indent: initial;
+        }
+
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+
+        table tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #E7E9EB;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .ws-table-all td,
+        .ws-table-all th {
+            padding: 8px 8px;
+            display: table-cell;
+            text-align: left;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Entities</h1>
+    <p>Some characters are reserved in HTML.
+        If you use the less than (&lt;) or greater than (&gt;) signs in your text, the browser might mix them with tags.
+        Character entities are used to display reserved characters in HTML.
+        A character entity looks like this:</p>
+
+    <code>
+    &entity_name;
+    <br>
+    OR<br>
+    &#entity_number;
+    </code>
+    <table class="ws-table-all notranslate">
+        <tbody>
+            <tr>
+                <th>Result</th>
+                <th>Description</th>
+                <th>Entity Name</th>
+                <th>Entity Number</th>
+            </tr>
+            <tr>
+                <td style="height: 29px"></td>
+                <td style="height: 29px">non-breaking space</td>
+                <td style="height: 29px">&amp;nbsp;</td>
+                <td style="height: 29px">&amp;#160;</td>
+            </tr>
+            <tr>
+                <td>&lt;</td>
+                <td>less than</td>
+                <td>&amp;lt;</td>
+                <td>&amp;#60;</td>
+            </tr>
+            <tr>
+                <td>&gt;</td>
+                <td>greater than</td>
+                <td>&amp;gt;</td>
+                <td>&amp;#62;</td>
+            </tr>
+            <tr>
+                <td>&amp;</td>
+                <td>ampersand</td>
+                <td>&amp;amp;</td>
+                <td>&amp;#38;</td>
+            </tr>
+            <tr>
+                <td>"</td>
+                <td>double quotation mark </td>
+                <td>&amp;quot;</td>
+                <td>&amp;#34;</td>
+            </tr>
+            <tr>
+                <td>'</td>
+                <td>single quotation mark (apostrophe) </td>
+                <td>&amp;apos;</td>
+                <td>&amp;#39;</td>
+            </tr>
+            <tr>
+                <td>¢</td>
+                <td>cent</td>
+                <td>&amp;cent;</td>
+                <td>&amp;#162;</td>
+            </tr>
+            <tr>
+                <td>£</td>
+                <td>pound</td>
+                <td>&amp;pound;</td>
+                <td>&amp;#163;</td>
+            </tr>
+            <tr>
+                <td>¥</td>
+                <td>yen</td>
+                <td>&amp;yen;</td>
+                <td>&amp;#165;</td>
+            </tr>
+            <tr>
+                <td>€</td>
+                <td>euro</td>
+                <td>&amp;euro;</td>
+                <td>&amp;#8364;</td>
+            </tr>
+            <tr>
+                <td>©</td>
+                <td>copyright</td>
+                <td>&amp;copy;</td>
+                <td>&amp;#169;</td>
+            </tr>
+            <tr>
+                <td>®</td>
+                <td>registered trademark</td>
+                <td>&amp;reg;</td>
+                <td>&amp;#174;</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>for more information and entities visit <a href="https://www.w3schools.com/html/html_entities.asp"
+            target="_blank" rel="noopener noreferrer">w3schools</a></p>
+</body>
+
+</html>
