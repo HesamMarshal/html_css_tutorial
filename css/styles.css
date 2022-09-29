@@ -8,10 +8,13 @@
 }
 
 :root {
+    --color-main: #efefef;
     --color-primary: #286870;
-    --color-secondary: aliceblue;
+    --color-secondary: #ff7a18;
+
     --color-background: #262626;
-    /* --color-links: #ff7a18;  css-tricks*/
+    /* --color-title: ; */
+    /* --color-links: #ff7a18;  css-tricks */
     --color-links: #27AE60;
 
 
@@ -44,16 +47,19 @@ body {
     background-repeat: no-repeat;
     /* background-image: radial-gradient(50% 50% at top center, rgba(0, 0, 0, .66), #262626), var(--featured-img); */
     background-image: url(../images/seyi-ariyo-g42A22TR8k8-unsplash.jpg);
-
-    color: var(--color-secondary);
+    color: var(--color-main);
 }
-
-
 
 
 h1 {
     color: var(--color-primary);
     font-family: Impact;
+}
+
+h2,
+h3 {
+    color: var(--color-secondary);
+    /* font-family: Impact; */
 }
 
 p {
@@ -167,6 +173,15 @@ main .mini-card {
 
 .mini-card:hover {
     transform: translateY(-1rem) rotate(3deg);
+}
+
+.mini-card h3 {
+    border: 1ps solid red;
+}
+
+.mini-card li span {
+    color: var(--middle-blue-green);
+    font-weight: 700;
 }
 
 
