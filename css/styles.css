@@ -64,7 +64,7 @@ h3 {
 
 p {
     font-family: Arial;
-    color: aliceblue;
+    color: var(--color-main);
 }
 
 a,
@@ -72,7 +72,7 @@ a:visited,
 a:hover,
 a:active {
     color: var(--color-links);
-    /* TODO: Chack the fonts */
+    /* TODO: Check the fonts */
     font-family: MD Primer Bold, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
     font-style: normal;
     font-weight: 700;
@@ -107,11 +107,7 @@ main {
 
 
 
-.footer {
-    /* background-color: orangered; */
-    /* grid-area: footer; */
 
-}
 
 /* body {
     background-color: gray;
@@ -175,10 +171,6 @@ main .mini-card {
     transform: translateY(-1rem) rotate(3deg);
 }
 
-.mini-card h3 {
-    border: 1ps solid red;
-}
-
 .mini-card li span {
     color: var(--middle-blue-green);
     font-weight: 700;
@@ -201,79 +193,9 @@ main .mini-card {
 
 }
 
-.card {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: var(--medium-champagne);
-    padding: 10px;
-}
 
-
-
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
-/***********************************************************************
- *  Green Background
- **********************************************************************/
-.container>:nth-child(6n+1) {
-    background: #56B870;
-    /* Old browsers */
-    background: linear-gradient(#56B870 0%, #a5c956 100%);
-    /* W3C */
-}
-
-/***********************************************************************
- *  Red Background
- **********************************************************************/
-.container>:nth-child(6n+2) {
-    background: #C655BE;
-    /* Old browsers */
-
-    background: linear-gradient(#C655BE 0%, #cf0404 100%);
-    /* W3C */
-}
-
-/***********************************************************************
- *  Yellow Background
- **********************************************************************/
-.container>:nth-child(6n+3) {
-    background: #F3AAAA;
-    /* Old browsers */
-
-    background: linear-gradient(#F3AAAA 0%, #febf04 100%);
-    /* W3C */
-}
-
-/***********************************************************************
- *  Blue Background
- **********************************************************************/
-.container>:nth-child(6n+4) {
-    background: #7abcff;
-    /* Old browsers */
-
-    background: linear-gradient(#7abcff 0%, #60abf8 44%, #4096ee 100%);
-    /* W3C */
-}
-
-/***********************************************************************
- *  Purple Background
- **********************************************************************/
-.container>:nth-child(6n+5) {
-    background: #A88BEB;
-    /* Old browsers */
-
-    background: linear-gradient(#A88BEB 0%, #F1A7F1 44%, #F8CEEC 100%);
-    /* W3C */
-}
-
-/***********************************************************************
- *  Brown Background
- **********************************************************************/
-.container>:nth-child(6n+6) {
-    background: #f6e6b4;
-    /* Old browsers */
-
-    background: linear-gradient(#f6e6b4 0%, #ed9017 100%);
-    /* W3C */
-    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6e6b4', endColorstr='#ed9017', GradientType=0);
-    IE6-9 */
+.footer {
+    /* background-color: orangered; */
+    /* grid-area: footer; */
+    text-align: center;
 }
