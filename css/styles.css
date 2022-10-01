@@ -89,6 +89,7 @@ a:active {
 
 main {
     width: 90vw;
+    min-height: 80vh;
 }
 
 .header {
