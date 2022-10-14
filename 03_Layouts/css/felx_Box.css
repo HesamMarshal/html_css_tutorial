@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    border: 2px solid gray;
+    height: 500px;
+
+    /* display: flex; */
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+
+
+
+    /* height: 200px; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* height: 500px; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+
+
+    /* flex froggy */
+
+    /* Add more items */
+    /* flex-direction: row-reverse; */
+    /* height: 600px; */
+
+    /* flex-wrap: wrap; */
+
+    /*  nowrap: Every item is fit to a single line.
+        wrap: Items wrap around to additional lines.
+        wrap-reverse: Items wrap around to additional lines in reverse.
+ */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+
+    /* align-content: center; */
+
+    /* flex-direction: column; */
+
+    /* order */
+
+    /* The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space. */
+    /* For example, you can use flex-flow: row wrap to set rows and wrap them. */
+
+    /* justify-items: baseline; */
+
+
+    /* align-content  */
+    /* flex-start: Lines are packed at the top of the container.
+flex-end: Lines are packed at the bottom of the container.
+center: Lines are packed at the vertical center of the container.
+space-between: Lines display with equal spacing between them.
+space-around: Lines display with equal spacing around them.
+stretch: Lines are stretched to fit the container. */
+    /* flex-direction: column; */
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    text-align: center;
+
+    /* flex-basis: 200px; */
+    /*change flex-direction :row-col at container*/
+
+
+    /* items grow equally = 1 */
+    /* flex-grow: 1; */
+
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; */
+
+
+}
+
+.item-one {
+    background-color: tomato;
+    /* order: 1; */
+    /* flex-basis: 200px; */
+    /* width: 200px; */
+
+    /* flex-basis: 600px; */
+
+    /* reset align-content and set align-items: center at container; */
+    /* align-self: flex-start; */
+    /* flex-grow: 3; */
+
+
+    /* item grows equally  */
+    /* flex-grow: 3; */
+
+    /* flex-basis: 200px; */
+    /* flex-shrink: 3; */
+    /* flex: 3 2 200px; */
+}
+
+.item-two {
+    background-color: orange;
+
+    /* order: 2; */
+    /* flex-basis: 150px; */
+    /* flex-basis: 300px; */
+    /* flex-grow: 2; */
+
+
+    /* item grows equally  */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+
+}
+
+.item-three {
+    background-color: orangered;
+    /* order: 1; */
+    /* item grows equally  */
+    /* flex-grow: 5; */
+    /* flex-shrink: 1; */
+
+}
