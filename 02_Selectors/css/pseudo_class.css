@@ -1,0 +1,42 @@
+.fruits {
+    font-size: x-large;
+    color: brown;
+}
+
+.fruits :first-child {
+    /* color: red; */
+}
+
+.fruits :last-child {
+    /* color: green; */
+}
+
+
+.fruits :first-of-type {
+    /* color: green; */
+}
+
+.fruits :last-of-type {
+    /* color: gold; */
+}
+
+ol :nth-child(6) {
+    /* color: cornflowerblue; */
+}
+
+ol :nth-child(even) {
+    /* color: green; */
+}
+
+li:nth-child(odd) {
+    /* color: blueviolet; */
+}
+
+ol :nth-child(3n) {
+    /* color: red; */
+}
+
+
+ol :nth-child(3n+1) {
+    /* color: red; */
+}
