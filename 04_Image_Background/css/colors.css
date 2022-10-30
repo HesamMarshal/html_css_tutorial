@@ -1,0 +1,109 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+.container .rgb {
+    display: inline-block;
+    max-width: 50%;
+}
+
+.container .hexadecimal {
+    display: inline-block;
+    max-width: 40%;
+}
+
+.primary,
+.secondary,
+.tertiary,
+.complementary {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.primary .one {
+    background-color: rgb(255, 0, 0);
+}
+
+.primary .two {
+    background-color: rgb(0, 255, 0);
+}
+
+.primary .three {
+    background-color: rgb(0, 0, 255);
+}
+
+
+
+.secondary .one {
+    /* yellow */
+    background-color: rgb(255, 255, 0);
+}
+
+.secondary .two {
+    /* cyan */
+    background-color: rgb(0, 255, 255);
+}
+
+.secondary .three {
+    /* magenta */
+    background-color: rgb(255, 0, 255);
+}
+
+/* tertiary */
+
+.tertiary .one {
+    /* orange */
+    background-color: rgb(255, 127, 0);
+}
+
+.tertiary .two {
+    /* spring green */
+    background-color: rgb(0, 255, 127);
+
+}
+
+.tertiary .three {
+    /* violet */
+    background-color: rgb(127, 0, 255);
+}
+
+.tertiary .four {
+    /* chartreuse green  (green + yellow) */
+    background-color: rgb(127, 255, 0);
+}
+
+.tertiary .five {
+    /* azure  (blue + cyan) */
+    background-color: #007fff;
+}
+
+.tertiary .six {
+    /* rose (red + magenta) */
+    background-color: rgb(255, 0, 127);
+}
+
+/* complementary */
+
+.complementary .one {
+    /* orange */
+    background-color: rgb(255, 0, 0);
+}
+
+.complementary .two {
+    /* spring green */
+    background-color: rgb(0, 255, 255);
+
+}
+
+.complementary p {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
