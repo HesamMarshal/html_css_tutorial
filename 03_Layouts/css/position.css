@@ -1,0 +1,108 @@
+body {
+    height: 200vh;
+}
+
+.container {
+    border: 2px solid green;
+    margin-top: 50px;
+    position: relative;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.item1 {
+    background-color: orange;
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 50px; */
+    /* left: 30px; */
+    /* z-index: 5; */
+    /* position: absolute; */
+    /* top: -150px; */
+    /* left: 150px; */
+    /* z-index: -1; */
+}
+
+.item2 {
+    background-color: tomato;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    /* position: static; */
+    /* z-index: -1; */
+}
+
+.item3 {
+    background-color: red;
+}
+
+.box {
+    /* position: relative; */
+}
+
+.item2 {
+    /* position: absolute; */
+    /* Relate to first father with relative */
+    /* top: -250px; */
+    /* left: -250px; */
+    /* z-index: 2; */
+    /* position: fixed; */
+    /* z-index: -1; */
+}
+
+/*         .item2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+} */
+
+.menu {
+    background-color: burlywood;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 50px; */
+    /* left: 50px; */
+    /* right: 0; */
+    z-index: 999;
+
+
+}
+
+
+.sticky_menu {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+
+}
+
+.img2 {
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+
+.toTop {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+
+    /* position: sticky; */
+
+
+
+}
